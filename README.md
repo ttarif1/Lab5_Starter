@@ -3,6 +3,6 @@
 ### Links:
 Github Actions: 
        Pages:
-                Expose:
+                Expose: https://ttarif1.github.io/Lab5_Starter/expose
                 Explore:
 
