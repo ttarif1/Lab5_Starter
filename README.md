@@ -1,4 +1,3 @@
-# Lab 5
 ## Name: Tarek Tarif
 ### Links:
 ```
