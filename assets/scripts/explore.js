@@ -5,7 +5,7 @@ window.addEventListener('DOMContentLoaded', init);
 function init() {
 var dialects =[];
 var dialect_selection = document.getElementById('voice-select');
-var faceimage = document.querySelector('img');
+var emote_image = document.querySelector('img');
 var play_button = document.querySelector('button');
 var synthesis = window.speechSynthesis;
 var text = document.querySelector('textarea');
@@ -40,10 +40,10 @@ function populateVoices() {
     }
     
     speech.addEventListener('start', (event) =>{
-      faceimage.src = 'assets/images/smiling-open.png';
+      emote_image.src = 'assets/images/smiling-open.png';
     });
     speech.addEventListener('end', (event) => {
-      faceimage.src = 'assets/images/smiling.png';
+      emote_image.src = 'assets/images/smiling.png';
     });
 
     synthesis.speak(speech);
